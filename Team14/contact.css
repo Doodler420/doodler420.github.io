@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face{
+
+    font-family:Abel;
+    src:url(./Abel-Regular.ttf);
+
+}
+@font-face {
+    font-family: Signika;
+    src: url(Signika-Bold.ttf);
+  }
+.row1{
+    
+    width: 100%; 
+    float: left; 
+    
+} 
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:orange;
+}
+#img{
+    float: right;
+}
+.bg{
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h1{
+    color:black; 
+    font-size: bold; 
+    text-align: center;
+}
+
+.row2{ 
+    
+    display: flex;
+    border-radius: 2px; 
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px; 
+    margin-top: 5px;
+} 
+.btn{ 
+
+    text-decoration: none;
+    float: center ;
+    align-items: center;
+    border-radius: 4px;
+    float: left; 
+    margin-bottom: 10px;
+    padding: 5px;
+
+    text-align: center; 
+    margin-right: 30px; 
+    margin-left: 30px; 
+    background-color:transparent;
+    border: 0px;
+    height:50px;
+    color:aliceblue
+} 
+.scroll{
+     
+    font-family: Signika;
+    margin-top: 20px;
+    font-size:50px;
+    background: -webkit-linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn:hover{
+    box-shadow:2px 2px 5px #333;
+    border:1px solid #333;
+    color:#333;
+    
+}  
+.row3 {
+
+    background-color:lightcoral;
+    text-align: center;
+
+}
+.h2{
+    color: white; 
+    text-align: center;
+}
+
+#row4{
+    display:flex;
+    font-family:Bebas;
+    align-items: left;
+    margin-left: 30px;
+}
+
+#row5{
+    
+    display:flex;
+    flex-direction:column;
+    font-family: Abel;
+    align-items:left;
+    margin-left: 250px;
+    font-size: 30px;
+}
+.imgsrc{
+    margin-left: 100px;
+}
+.fb{
+    color:blue;
+}
+.in{
+    color:red;
+}
+.tw{
+    color:rgb(0, 110, 255)
+}
+.em{
+    color:rgb(215, 109, 109)
+}
+.wh{
+    color:green
+}
